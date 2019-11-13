@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  .tv-show-item {
+    border: 1px solid grey;
+    margin: 5px;
+    width: 31.33%;
+
+    .show-item-title {
+      font-weight: bold;
+    }
+  }
+
+}
